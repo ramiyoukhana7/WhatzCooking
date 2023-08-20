@@ -1,0 +1,204 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "Classic Margherita Pizza",
+        "description": "A simple and delicious margherita pizza recipe.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["pizza", "margherita", "Italian"],
+        "likes": 20
+      },
+      {
+        "id": 2,
+        "title": "Vegan Pizza Delight",
+        "description": "Tasty vegan pizza with fresh vegetables.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["pizza", "vegan", "healthy"],
+        "likes": 50
+      },
+      {
+        "id": 3,
+        "title": "Spicy Indian Curry",
+        "description": "Hot and spicy Indian curry recipe.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["curry", "spicy", "Indian"],
+        "likes": 75
+      },
+      {
+        "id": 4,
+        "title": "Chocolate Lava Cake",
+        "description": "Decadent and rich chocolate lava cake.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["dessert", "chocolate", "cake"],
+        "likes": 100
+      },
+      {
+        "id": 5,
+        "title": "Fresh Caesar Salad",
+        "description": "Crisp romaine lettuce with creamy Caesar dressing.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["salad", "healthy", "low-carb"],
+        "likes": 64
+      },
+      {
+        "id": 6,
+        "title": "Vegan Tofu Stir Fry",
+        "description": "Delicious tofu cooked with a blend of veggies.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["vegan", "tofu", "stir fry"],
+        "likes": 47
+      },
+      {
+        "id": 7,
+        "title": "Sushi Platter",
+        "description": "An assortment of fresh sushi rolls.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["sushi", "Japanese", "fish"],
+        "likes": 110
+      },
+      {
+        "id": 8,
+        "title": "Beef Tacos",
+        "description": "Savory beef tacos with fresh salsa.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["tacos", "Mexican", "beef"],
+        "likes": 95
+      },
+      {
+        "id": 9,
+        "title": "Vegan Pasta",
+        "description": "Delightful pasta made with vegan ingredients.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["pasta", "vegan", "Italian"],
+        "likes": 45
+      },
+      {
+        "id": 10,
+        "title": "Lobster Roll",
+        "description": "Juicy lobster meat in a buttered roll.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["seafood", "lobster", "sandwich"],
+        "likes": 87
+      },
+      {
+        "id": 11,
+        "title": "Quinoa Salad",
+        "description": "A healthy mix of quinoa, veggies, and feta cheese.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["salad", "healthy", "vegan"],
+        "likes": 72
+      },
+      {
+        "id": 12,
+        "title": "Tom Yum Soup",
+        "description": "Spicy Thai soup with shrimp and mushrooms.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["soup", "spicy", "Thai"],
+        "likes": 89
+      },
+      {
+        "id": 13,
+        "title": "Ramen Bowl",
+        "description": "Savory Japanese noodle soup.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["soup", "noodles", "Japanese"],
+        "likes": 105
+      },
+      {
+        "id": 14,
+        "title": "Fish and Chips",
+        "description": "Crispy battered fish with golden fries.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["fish", "fried", "British"],
+        "likes": 78
+      },
+      {
+        "id": 15,
+        "title": "Veggie Burger",
+        "description": "Delicious plant-based burger patty.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["burger", "vegan", "fast food"],
+        "likes": 82
+      },
+      {
+        "id": 16,
+        "title": "Steak Frites",
+        "description": "Juicy steak with a side of fries.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["steak", "French", "meat"],
+        "likes": 115
+      },
+      {
+        "id": 17,
+        "title": "Peking Duck",
+        "description": "Chinese roasted duck dish.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["duck", "roast", "Chinese"],
+        "likes": 92
+      },
+      {
+        "id": 18,
+        "title": "Falafel Wrap",
+        "description": "Crispy falafel in a fresh wrap.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["wrap", "vegan", "Middle Eastern"],
+        "likes": 67
+      },
+      {
+        "id": 19,
+        "title": "Cherry Pie",
+        "description": "Sweet cherry-filled dessert pie.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["dessert", "pie", "sweet"],
+        "likes": 73
+      },
+      {
+        "id": 20,
+        "title": "Fried Chicken",
+        "description": "Crispy and juicy deep-fried chicken.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["chicken", "fried", "comfort food"],
+        "likes": 99
+      },
+      {
+        "id": 21,
+        "title": "Miso Soup",
+        "description": "Traditional Japanese soup.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["soup", "Japanese", "miso"],
+        "likes": 50
+      },
+      {
+        "id": 22,
+        "title": "Cheese Platter",
+        "description": "Assortment of cheeses, nuts, and fruits.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["cheese", "snack", "European"],
+        "likes": 71
+      },
+      {
+        "id": 23,
+        "title": "Shawarma Plate",
+        "description": "Middle Eastern meat dish with sides.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["meat", "Middle Eastern", "spicy"],
+        "likes": 87
+      },
+      {
+        "id": 24,
+        "title": "Fruit Tart",
+        "description": "Sweet tart filled with fresh fruits.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["dessert", "fruit", "sweet"],
+        "likes": 80
+      },
+      {
+        "id": 25,
+        "title": "BBQ Ribs",
+        "description": "Tender ribs with smoky BBQ sauce.",
+        "image": "/burger-homemade.jpg",
+        "tags": ["meat", "BBQ", "American"],
+        "likes": 108
+      }
+    ]
+}

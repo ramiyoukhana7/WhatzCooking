@@ -1,0 +1,60 @@
+.home {
+    padding: 20px;
+    margin-left: 260px;
+}
+
+.feed {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));;
+    gap: 20px;
+}
+
+.post-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.post-card:hover {
+    transform: translateY(-10px)
+}
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title, .card-description{
+    padding: 10px 15px;
+}
+
+.card-tags {
+    padding: 0 15px 10px;
+    color: #007BFF;
+}
+
+.card-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-top: 1px solid #E0E0E0;
+}
+
+.btn-like, .btn-comment, .btn-share {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.btn-like:hover {
+    color: #007BFF;
+  }
+  
+  .btn-comment:hover {
+    color: #009688;
+  }
+  

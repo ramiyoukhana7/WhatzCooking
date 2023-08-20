@@ -1,0 +1,25 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "author": "John Doe",
+        "content": "This is my first post!",
+        "likes": 5,
+        "comments": [
+          {
+            "id": 1,
+            "commentAuthor": "Jane Smith",
+            "content": "Nice post!"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "author": "Jane Smith",
+        "content": "Hello, world!",
+        "likes": 10,
+        "comments": []
+      }
+    ]
+  }
+  
