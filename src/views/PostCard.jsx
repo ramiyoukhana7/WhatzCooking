@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./PostCard.css";
 
-function PostCard({ postData }) {
+function PostCard({ postData, onPostClick }) {
   const [likes, setLikes] = useState(postData.likes);
   const [comments, setComments] = useState(postData.comments || []);
   const [newComment, setNewComment] = useState("");
@@ -18,7 +18,7 @@ function PostCard({ postData }) {
   };
 
   return (
-    <div className="postCard">
+    <div className="postCard" onClick={() => onPostClick(postData)}>
       <h2>{postData.title}</h2>
       <img src={postData.image} alt={postData.title} />
       <p>{postData.description}</p>
