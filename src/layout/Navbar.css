@@ -1,50 +1,50 @@
 * {
-    margin: 0%;
+  margin: 0%;
 }
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
 }
 
 .navbar-logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-    cursor: pointer;
-    margin-right: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  margin-right: 50px;
 }
 
 .navbar-actions {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.upload-btn {
-    background-color: #007BFF;
-    color: #ffffff;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 4px;
-    font-size: 16px;
-    margin-right: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+button {
+  background-color: #464646;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .upload-btn:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
-.navbar-profile-img{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    object-fit: cover; /* Ensures the profile picture maintains its aspect ratio */
-    cursor: pointer;
-    margin-right: 30px;
+.navbar-profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover; /* Ensures the profile picture maintains its aspect ratio */
+  cursor: pointer;
+  margin-right: 30px;
 }

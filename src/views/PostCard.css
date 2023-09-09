@@ -1,0 +1,81 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.postCard {
+  flex-basis: calc(30% - 16px);
+  background: #f2f2f2;
+  border: none;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.postCard:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+}
+
+.postCard img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.postCard h2 {
+  margin-bottom: 1.5%;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.tag {
+  background: #4caf50;
+  padding: 8px;
+  border-radius: 50px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.like-btn,
+.comment-btn {
+  cursor: pointer;
+  padding: 8px 16px;
+  border: none;
+  background-color: #3d3d3d;
+  color: white;
+  border-radius: 4px;
+  margin-right: 8px;
+  font-size: 1em;
+}
+
+.comment-field {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.comments-container {
+  margin-top: 16px;
+}
+
+.comment {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #eee;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
