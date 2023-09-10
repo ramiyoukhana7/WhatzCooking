@@ -12,6 +12,8 @@
 
 .post-popup-content {
   background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
   display: flex;
   gap: 20px;
@@ -20,10 +22,12 @@
 .popup-image {
   width: 50%;
   object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .popup-details {
   width: 50%;
+  padding: 20px;
 }
 
 .popup-user-img {
@@ -31,25 +35,31 @@
   height: 50px;
   border-radius: 50%;
   object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .popup-username,
 .popup-description,
 .popup-tags {
   margin: 10px 0;
+  color: #4a5568;
 }
 
 .popup-comments {
   margin-top: 20px;
 }
 
-.like-button {
-  background-color: #007bff;
+.like-button,
+.close-popup {
+  background-color: #667eea;
   color: #fff;
   padding: 10px;
-  border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
+}
+.like-button:hover,
+.close-popuo:hover {
+  background-color: #5a67d8;
 }
 
 .close-popup {
@@ -57,6 +67,5 @@
   top: 10px;
   right: 10px;
   background-color: #fff;
-  border: none;
-  cursor: pointer;
+  color: #4a5568;
 }
